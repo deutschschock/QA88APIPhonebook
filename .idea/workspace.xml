@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a5c8e501-0141-44c8-b56f-543d4f714701" name="Changes" comment="new project start">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/user_dto.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/user_dto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/conftest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +69,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788954182576</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="new project start">
+      <option name="closed" value="true" />
+      <created>1788955200085</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1788955200087</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
