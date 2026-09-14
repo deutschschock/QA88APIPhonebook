@@ -32,4 +32,14 @@ class TestRegistration:
         assert response.status_code in [400, 409]
         assert "User already exists" in response.json().values()
 
-
+    def test_email_and_password_positive(self, session, registration_url):
+        body = {
+            "username": "fort@my.au",
+            "password": "Regeno@13",
+        }
+        headers = {
+            "Content-Type": "application/json",
+        }
+        response = session.post(registration_url, json=body, headers=headers)
+        print(response.json())
+        assert response.status_code == 200

@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5c8e501-0141-44c8-b56f-543d4f714701" name="Changes" comment="conftest">
-      <change afterPath="$PROJECT_DIR$/test/test_registration.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/QA88APIPhonebook.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/QA88APIPhonebook.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/conftest.py" afterDir="false" />
-    </list>
+    <list default="true" id="a5c8e501-0141-44c8-b56f-543d4f714701" name="Changes" comment="new tests user_registration" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,31 +26,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python tests.Python tests for test.test_registration.TestRegistration.executor": "Run",
-    "Python tests.Python tests for test.test_registration.TestRegistration.test_registration_positive.executor": "Run",
-    "Python tests.pytest for test.test_registration.TestRegistration.executor": "Run",
-    "Python tests.pytest for test.test_registration.TestRegistration.test_registration_negative_duplicate.executor": "Run",
-    "Python tests.pytest for test.test_registration.TestRegistration.test_registration_negative_duplicate_user.executor": "Run",
-    "Python tests.pytest for test.test_registration.TestRegistrationNego.executor": "Run",
-    "Python tests.pytest in test_registration.py.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/lenovo/PycharmProjects/QA88APIPhonebook",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for test.test_registration.TestRegistration.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test.test_registration.TestRegistration.test_registration_positive.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test.test_registration.TestRegistration.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test.test_registration.TestRegistration.test_email_and_password_positive.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test.test_registration.TestRegistration.test_registration_negative_duplicate.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test.test_registration.TestRegistration.test_registration_negative_duplicate_user.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test.test_registration.TestRegistrationNego.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_registration.py.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lenovo/PycharmProjects/QA88APIPhonebook&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\lenovo\PycharmProjects\QA88APIPhonebook" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test.test_registration.TestRegistration">
+  <component name="RunManager" selected="Python tests.pytest for test.test_registration.TestRegistration.test_email_and_password_positive">
     <configuration name="pytest for test.test_registration.TestRegistration" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="QA88APIPhonebook" />
       <option name="ENV_FILES" value="" />
@@ -72,6 +68,25 @@
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test.test_registration.TestRegistration&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test.test_registration.TestRegistration.test_email_and_password_positive" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="QA88APIPhonebook" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.test_registration.TestRegistration.test_email_and_password_positive&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -96,11 +111,13 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.pytest in $Sourcepath$" />
       <item itemvalue="Python tests.pytest for test.test_registration.TestRegistration" />
+      <item itemvalue="Python tests.pytest for test.test_registration.TestRegistration.test_email_and_password_positive" />
+      <item itemvalue="Python tests.pytest in $Sourcepath$" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test.test_registration.TestRegistration.test_email_and_password_positive" />
         <item itemvalue="Python tests.pytest for test.test_registration.TestRegistration" />
       </list>
     </recent_temporary>
@@ -144,7 +161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788971738362</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="new tests user_registration">
+      <option name="closed" value="true" />
+      <created>1789062387280</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1789062387281</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +178,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new project start" />
     <MESSAGE value="conftest" />
-    <option name="LAST_COMMIT_MESSAGE" value="conftest" />
+    <MESSAGE value="new tests user_registration" />
+    <option name="LAST_COMMIT_MESSAGE" value="new tests user_registration" />
   </component>
 </project>
