@@ -7,5 +7,6 @@ pytest -v
 pytest -s
 pytest -s -v
 pytest test_pytest.py
+pytest -k login   #запускает все тесты с названии которых есть login
 
 pytest --version
